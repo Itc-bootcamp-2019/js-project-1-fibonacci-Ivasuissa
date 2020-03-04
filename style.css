@@ -1,0 +1,19 @@
+p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+}
+#myBtn {
+  font-size: 16px;
+  background: rgb(73, 146, 235);
+  width: 5vh;
+  height: 5vh;
+}
+input {
+  border-radius: 4px;
+}
+form {
+  display: inline;
+}
