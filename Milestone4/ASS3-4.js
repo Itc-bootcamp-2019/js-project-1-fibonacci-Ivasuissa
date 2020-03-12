@@ -11,15 +11,13 @@ function fibonacci(x) {
     a = b;
     b = y;
   }
-  console.log(x,y)
+  console.log(x, y);
   result.innerText = y;
-
 }
 
-function executeFibonnacci(){
-let z = document.getElementById("quantity").value;
-fibonacci(z)
+function executeFibonnacci() {
+  let z = document.getElementById("quantity").value;
+  fibonacci(z);
 }
-
 
 document.getElementById("myBtn").addEventListener("click", executeFibonnacci);
